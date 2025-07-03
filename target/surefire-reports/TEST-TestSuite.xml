@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="83.839" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\BinDangVan\DemoTestScenarios\target\test-classes;C:\Users\BinDangVan\DemoTestScenarios\target\classes;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.0\selenium-java-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.0\selenium-api-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.0\selenium-chrome-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.0\selenium-chromium-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.0\selenium-json-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.0\selenium-manager-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.0\selenium-devtools-v130-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.0\selenium-devtools-v131-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.0\selenium-devtools-v132-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.0\selenium-devtools-v85-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.0\selenium-edge-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.0\selenium-firefox-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.0\selenium-http-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.0\selenium-ie-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.0\selenium-remote-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\BinDangVan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\BinDangVan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\BinDangVan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\BinDangVan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.0\selenium-os-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.0\selenium-safari-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.0\selenium-support-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\BinDangVan\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\BinDangVan\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\BinDangVan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\BinDangVan\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\BinDangVan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\BinDangVan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\BinDangVan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\BinDangVan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\BinDangVan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\BinDangVan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\BinDangVan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\BinDangVan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\BinDangVan\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\BinDangVan\.m2\repository\io\github\bonigarcia\webdrivermanager\6.0.1\webdrivermanager-6.0.1.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\BinDangVan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\BinDangVan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\BinDangVan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\BinDangVan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\BinDangVan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\BinDangVan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\BinDangVan\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\BinDangVan\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-attachments\2.29.1\allure-attachments-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\BinDangVan\.m2\repository\org\aspectj\aspectjweaver\1.9.24\aspectjweaver-1.9.24.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Java\bin"/>
+    <property name="sun.java.command" value="C:\Users\BinDangVan\AppData\Local\Temp\surefire5285888966389491717\surefirebooter-20250702211144932_3.jar C:\Users\BinDangVan\AppData\Local\Temp\surefire5285888966389491717 2025-07-02T21-11-44_819-jvmRun1 surefire-20250702211144932_1tmp surefire_0-20250702211144932_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\BinDangVan\DemoTestScenarios\target\test-classes;C:\Users\BinDangVan\DemoTestScenarios\target\classes;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.0\selenium-java-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.0\selenium-api-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.0\selenium-chrome-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.0\selenium-chromium-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.0\selenium-json-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.0\selenium-manager-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.0\selenium-devtools-v130-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.0\selenium-devtools-v131-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.0\selenium-devtools-v132-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.0\selenium-devtools-v85-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.0\selenium-edge-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.0\selenium-firefox-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.0\selenium-http-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.0\selenium-ie-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.0\selenium-remote-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\BinDangVan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\BinDangVan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\BinDangVan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\BinDangVan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\BinDangVan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\BinDangVan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.0\selenium-os-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.0\selenium-safari-driver-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.0\selenium-support-4.28.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\BinDangVan\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\BinDangVan\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\BinDangVan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\BinDangVan\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\BinDangVan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\BinDangVan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\BinDangVan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\BinDangVan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\BinDangVan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\BinDangVan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\BinDangVan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\BinDangVan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\BinDangVan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\BinDangVan\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\BinDangVan\.m2\repository\io\github\bonigarcia\webdrivermanager\6.0.1\webdrivermanager-6.0.1.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\BinDangVan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\BinDangVan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\BinDangVan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\BinDangVan\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\BinDangVan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\BinDangVan\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\BinDangVan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\BinDangVan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\BinDangVan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\BinDangVan\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\BinDangVan\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\io\qameta\allure\allure-attachments\2.29.1\allure-attachments-2.29.1.jar;C:\Users\BinDangVan\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\BinDangVan\.m2\repository\org\aspectj\aspectjweaver\1.9.24\aspectjweaver-1.9.24.jar;"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\BinDangVan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\BinDangVan\DemoTestScenarios"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\BinDangVan\AppData\Local\Temp\surefire5285888966389491717\surefirebooter-20250702211144932_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
+    <property name="user.name" value="BinDangVan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="localRepository" value="C:\Users\BinDangVan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\BINDAN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\BinDangVan\DemoTestScenarios"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/BinDangVan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin/server;C:/Users/BinDangVan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Java\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.9\bin;%ALLURE_HOME%\bin;C:\tools\allure-2.34.1\bin;C:\Java\bin;C:\Users\BinDangVan\AppData\Local\Microsoft\WindowsApps;C:\Users\BinDangVan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.5\bin;;C:\Users\BinDangVan\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="verifyCreateUpdateDeleteCustomerSuccess" classname="testcases.CustomerTest" time="27.512">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\BinDangVan\DemoTestScenarios\src\test\resources\suites\SuiteTest.xml] otherwise TestNG may fail or not work as expected.
+[INFO] 02-07-2025 21:11:48 [main] LogUtils - ⚙️ Start Suite: Customer Test with Chrome browser
+Khởi chạy trình duyệt Chrome...
+[INFO] 02-07-2025 21:11:50 [main] LogUtils - ▶️ Start test: verifyCreateUpdateDeleteCustomerSuccess
+🎥 Started recording for: verifyCreateUpdateDeleteCustomerSuccess
+[INFO] 02-07-2025 21:11:51 [main] LogUtils - 🌐 Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 02-07-2025 21:11:51 [main] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:11:51 [main] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 02-07-2025 21:11:51 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:11:52 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 02-07-2025 21:11:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ ↔️ authentication
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Get text of element By.xpath: (//span[normalize-space()='Invoices Awaiting Payment']/parent::div)/following-sibling::span
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - ==> TEXT: 0 / 2
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Assert equals: 0 / 2 🟰 0 / 2
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - ==> TEXT: Customers Summary
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Assert equals: Customers Summary 🟰 Customers Summary
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 02-07-2025 21:11:55 [main] LogUtils - ==> TEXT: 1077
+getCustomerTotal: 1077
+[INFO] 02-07-2025 21:11:56 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 02-07-2025 21:11:56 [main] LogUtils - Set text NashTech Company on element By.xpath: //input[@id='company']
+[INFO] 02-07-2025 21:11:56 [main] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 02-07-2025 21:11:56 [main] LogUtils - Set text 0123456789 on element By.xpath: //input[@id='phonenumber']
+[INFO] 02-07-2025 21:11:56 [main] LogUtils - Set text https://www.nashtechglobal.com/ on element By.xpath: //input[@id='website']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //div[@class='dropdown bootstrap-select show-tick input-group-btn _select_input_group bs3']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //div[@class='dropdown bootstrap-select show-tick input-group-btn _select_input_group bs3 dropup open']//input[@aria-label='Search']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Testing']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //div[contains(text(),'Testing')]
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //button[@class='btn dropdown-toggle btn-default bs-placeholder']//div[@class='filter-option-inner-inner'][normalize-space()='System Default']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //a[@id='bs-select-2-2']//span[@class='text']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //div[contains(text(),'System Default')]
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Vietnamese']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Set text 123 on element By.xpath: //textarea[@id='address']
+[INFO] 02-07-2025 21:11:57 [main] LogUtils - Set text DN on element By.xpath: //input[@id='city']
+[INFO] 02-07-2025 21:11:58 [main] LogUtils - Set text ST on element By.xpath: //input[@id='state']
+[INFO] 02-07-2025 21:11:58 [main] LogUtils - Set text 50000 on element By.xpath: //input[@id='zip']
+[INFO] 02-07-2025 21:11:58 [main] LogUtils - Click on element By.xpath: //div[@app-field-wrapper='country']//div[@class='filter-option-inner-inner'][normalize-space()='Nothing selected']
+[INFO] 02-07-2025 21:11:58 [main] LogUtils - Set text viet on element By.xpath: //div[@class='dropdown bootstrap-select bs3 dropup open']//input[@aria-label='Search']
+[INFO] 02-07-2025 21:11:58 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Vietnam']
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Click on element By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: NashTech Company 🟰 NashTech Company
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: 10 🟰 10
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: 0123456789 🟰 0123456789
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: https://www.nashtechglobal.com/ 🟰 https://www.nashtechglobal.com/
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: Testing 🟰 Testing
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: Vietnamese 🟰 Vietnamese
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - ==> TEXT: 1078
+getCustomerTotal: 1078
+[INFO] 02-07-2025 21:11:59 [main] LogUtils - Assert equals: 1078 🟰 1078
+[INFO] 02-07-2025 21:12:00 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 02-07-2025 21:12:03 [main] LogUtils - Set text NashTech Company on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 02-07-2025 21:12:04 [main] LogUtils - Get text of element By.xpath: //table[@id='clients']/tbody/tr[1]/td[3]/a[normalize-space()='NashTech Company']
+[INFO] 02-07-2025 21:12:04 [main] LogUtils - ==> TEXT: NashTech Company
+NashTech Company
+[INFO] 02-07-2025 21:12:04 [main] LogUtils - Assert equals: NashTech Company 🟰 NashTech Company
+[INFO] 02-07-2025 21:12:04 [main] LogUtils - Click on element By.xpath: //th[@id='th-number']
+[INFO] 02-07-2025 21:12:04 [main] LogUtils - Click on element By.xpath: //th[@id='th-number']
+[INFO] 02-07-2025 21:12:05 [main] LogUtils - Click on element By.xpath: //table[@id='clients']/tbody/tr[1]/td[3]/a[normalize-space()='NashTech Company']
+[INFO] 02-07-2025 21:12:05 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Profile']
+[INFO] 02-07-2025 21:12:05 [main] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Profile']
+[INFO] 02-07-2025 21:12:05 [main] LogUtils - ==> TEXT: Profile
+[INFO] 02-07-2025 21:12:05 [main] LogUtils - Assert equals: Profile 🟰 Profile
+[INFO] 02-07-2025 21:12:05 [main] LogUtils - Clear text on element By.xpath: //input[@id='company']
+[INFO] 02-07-2025 21:12:06 [main] LogUtils - Set text Bin123 Company on element By.xpath: //input[@id='company']
+[INFO] 02-07-2025 21:12:06 [main] LogUtils - Click on element By.xpath: //button[@class='btn btn-primary only-save customer-form-submiter']
+[INFO] 02-07-2025 21:12:07 [main] LogUtils - Assert equals: Customer updated successfully. 🟰 Customer updated successfully.
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Click on element By.xpath: //a[@data-group='contacts']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Contacts']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Contacts']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - ==> TEXT: Contacts
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Assert equals: Contacts 🟰 Contacts
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='New Contact']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Add new contact']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Add new contact']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - ==> TEXT: Add new contact
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Assert equals: Add new contact 🟰 Add new contact
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - checkElementExist: true --- By.xpath: //p[@class='tw-mb-0']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Get text of element By.xpath: //p[@class='tw-mb-0']
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - ==> TEXT: Bin123 Company
+[INFO] 02-07-2025 21:12:08 [main] LogUtils - Assert equals: Bin123 Company 🟰 Bin123 Company
+[INFO] 02-07-2025 21:12:09 [main] LogUtils - Set text Bin on element By.xpath: //input[@id='firstname']
+[INFO] 02-07-2025 21:12:09 [main] LogUtils - Set text Dang on element By.xpath: //input[@id='lastname']
+[INFO] 02-07-2025 21:12:09 [main] LogUtils - Set text bin.dang@gmail.com on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:12:09 [main] LogUtils - Set text Bin@12301 on element By.xpath: //input[@name='password']
+[INFO] 02-07-2025 21:12:09 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Save']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='alert-title']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Get text of element By.xpath: //span[@class='alert-title']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - ==> TEXT: Contact added successfully.
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Assert equals: Contact added successfully. 🟰 Contact added successfully.
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='Bin Dang']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='Bin Dang']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - ==> TEXT: Bin Dang
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Assert equals: Bin Dang 🟰 Bin Dang
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='bin.dang@gmail.com']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='bin.dang@gmail.com']
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - ==> TEXT: bin.dang@gmail.com
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Assert equals: bin.dang@gmail.com 🟰 bin.dang@gmail.com
+[INFO] 02-07-2025 21:12:10 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 02-07-2025 21:12:11 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 02-07-2025 21:12:12 [main] LogUtils - Set text Bin123 Company on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Get text of element By.xpath: //table[@id='clients']/tbody/tr[1]/td[3]/a[normalize-space()='Bin123 Company']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - ==> TEXT: Bin123 Company
+Bin123 Company
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Assert equals: Bin123 Company 🟰 Bin123 Company
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='Bin123 Company']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='Bin123 Company']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - ==> TEXT: Bin123 Company
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Assert equals: Bin123 Company 🟰 Bin123 Company
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='Bin Dang']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='Bin Dang']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - ==> TEXT: Bin Dang
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Assert equals: Bin Dang 🟰 Bin Dang
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='bin.dang@gmail.com']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='bin.dang@gmail.com']
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - ==> TEXT: bin.dang@gmail.com
+[INFO] 02-07-2025 21:12:13 [main] LogUtils - Assert equals: bin.dang@gmail.com 🟰 bin.dang@gmail.com
+[INFO] 02-07-2025 21:12:14 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Delete']
+[INFO] 02-07-2025 21:12:15 [main] LogUtils - Click on element By.xpath: //button[@data-dismiss='alert']//span[@aria-hidden='true'][normalize-space()='×']
+[INFO] 02-07-2025 21:12:15 [main] LogUtils - Set text Bin123 Company on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 02-07-2025 21:12:16 [main] LogUtils - checkElementExist: true --- By.xpath: //td[@class='dataTables_empty']
+[INFO] 02-07-2025 21:12:16 [main] LogUtils - Get text of element By.xpath: //td[@class='dataTables_empty']
+[INFO] 02-07-2025 21:12:16 [main] LogUtils - ==> TEXT: No matching records found
+[INFO] 02-07-2025 21:12:16 [main] LogUtils - Assert equals: No matching records found 🟰 No matching records found
+[INFO] 02-07-2025 21:12:16 [main] LogUtils - Click on element By.xpath: //img[@class='img img-responsive staff-profile-image-small tw-ring-1 tw-ring-offset-2 tw-ring-primary-500 tw-mx-1 tw-mt-2.5']
+[INFO] 02-07-2025 21:12:18 [main] LogUtils - Click on element By.xpath: //ul[@class='dropdown-menu animated fadeIn']//li[@class='header-logout']//a[@href='#'][normalize-space()='Logout']
+[INFO] 02-07-2025 21:12:18 [main] LogUtils - ✅ Passed: verifyCreateUpdateDeleteCustomerSuccess
+🛑 Stopped recording for: verifyCreateUpdateDeleteCustomerSuccess
+]]></system-out>
+    <system-err><![CDATA[Jul 02, 2025 9:11:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jul 02, 2025 9:11:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.122. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProjectOfCustomer" classname="testcases.ProjectTest" time="29.463">
+    <system-out><![CDATA[Khởi chạy trình duyệt Chrome...
+[INFO] 02-07-2025 21:12:20 [main] LogUtils - ▶️ Start test: verifyProjectOfCustomer
+🎥 Started recording for: verifyProjectOfCustomer
+[INFO] 02-07-2025 21:12:23 [main] LogUtils - 🌐 Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 02-07-2025 21:12:23 [main] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:12:23 [main] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 02-07-2025 21:12:23 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:12:23 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 02-07-2025 21:12:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-07-2025 21:12:28 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ ↔️ authentication
+[INFO] 02-07-2025 21:12:28 [main] LogUtils - Get text of element By.xpath: (//span[normalize-space()='Invoices Awaiting Payment']/parent::div)/following-sibling::span
+[INFO] 02-07-2025 21:12:28 [main] LogUtils - ==> TEXT: 0 / 2
+[INFO] 02-07-2025 21:12:28 [main] LogUtils - Assert equals: 0 / 2 🟰 0 / 2
+[INFO] 02-07-2025 21:12:29 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Projects']
+[INFO] 02-07-2025 21:12:29 [main] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Projects Summary']
+[INFO] 02-07-2025 21:12:29 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Projects Summary']
+[INFO] 02-07-2025 21:12:29 [main] LogUtils - ==> TEXT: Projects Summary
+[INFO] 02-07-2025 21:12:29 [main] LogUtils - Assert equals: Projects Summary 🟰 Projects Summary
+[INFO] 02-07-2025 21:12:29 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='New Project']
+[INFO] 02-07-2025 21:12:30 [main] LogUtils - Set text Bin Project on element By.xpath: //input[@id='name']
+[INFO] 02-07-2025 21:12:30 [main] LogUtils - Click on element By.xpath: //button[@class='btn dropdown-toggle bs-placeholder btn-default']
+[INFO] 02-07-2025 21:12:30 [main] LogUtils - Set text Bin Customer on element By.xpath: //div[@class='dropdown bootstrap-select ajax-search bs3 open']//input[@placeholder='Type to search...']
+[INFO] 02-07-2025 21:12:31 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Bin Customer']
+[INFO] 02-07-2025 21:12:31 [main] LogUtils - Click on element By.xpath: //label[normalize-space()='Calculate progress through tasks']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Save']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='alert-title']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Get text of element By.xpath: //span[@class='alert-title']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - ==> TEXT: Project added successfully.
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Assert equals: Project added successfully. 🟰 Project added successfully.
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - checkElementExist: true --- By.xpath: //button[@title='Bin Project - Bin Customer']//div[@class='filter-option-inner-inner']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Get text of element By.xpath: //button[@title='Bin Project - Bin Customer']//div[@class='filter-option-inner-inner']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - ==> TEXT: Bin Project - Bin Customer
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Assert equals: Bin Project - Bin Customer 🟰 Bin Project - Bin Customer
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - checkElementExist: true --- By.xpath: //p[@class='project-info tw-mb-0 tw-font-medium tw-text-base tw-tracking-tight']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Get text of element By.xpath: //p[@class='project-info tw-mb-0 tw-font-medium tw-text-base tw-tracking-tight']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - ==> TEXT: Project Progress 50%
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Assert equals: Project Progress 50% 🟰 Project Progress 50%
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - checkElementExist: true --- By.xpath: //dt[normalize-space()='Customer']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Get text of element By.xpath: //dt[normalize-space()='Customer']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - ==> TEXT: Customer
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Assert equals: Customer 🟰 Customer
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='Bin Customer']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='Bin Customer']
+[INFO] 02-07-2025 21:12:34 [main] LogUtils - ==> TEXT: Bin Customer
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - Assert equals: Bin Customer 🟰 Bin Customer
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - checkElementExist: true --- By.xpath: //dt[normalize-space()='Status']
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - Get text of element By.xpath: //dt[normalize-space()='Status']
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - ==> TEXT: Status
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - Assert equals: Status 🟰 Status
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - checkElementExist: true --- By.xpath: //dd[normalize-space()='In Progress']
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - Get text of element By.xpath: //dd[normalize-space()='In Progress']
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - ==> TEXT: In Progress
+[INFO] 02-07-2025 21:12:35 [main] LogUtils - Assert equals: In Progress 🟰 In Progress
+[INFO] 02-07-2025 21:12:36 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 02-07-2025 21:12:36 [main] LogUtils - Set text Bin Customer on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 02-07-2025 21:12:37 [main] LogUtils - Get text of element By.xpath: //table[@id='clients']/tbody/tr[1]/td[3]/a[normalize-space()='Bin Customer']
+[INFO] 02-07-2025 21:12:37 [main] LogUtils - ==> TEXT: Bin Customer
+Bin Customer
+[INFO] 02-07-2025 21:12:37 [main] LogUtils - Assert equals: Bin Customer 🟰 Bin Customer
+[INFO] 02-07-2025 21:12:38 [main] LogUtils - Click on element By.xpath: //th[@id='th-number']
+[INFO] 02-07-2025 21:12:38 [main] LogUtils - Click on element By.xpath: //th[@id='th-number']
+[INFO] 02-07-2025 21:12:39 [main] LogUtils - Click on element By.xpath: //table[@id='clients']/tbody/tr[1]/td[3]/a[normalize-space()='Bin Customer']
+[INFO] 02-07-2025 21:12:42 [main] LogUtils - Click on element By.xpath: //a[@data-group='projects']
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - checkElementExist: true --- By.xpath: //a[normalize-space()='Bin Project']
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - Get text of element By.xpath: //a[normalize-space()='Bin Project']
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - ==> TEXT: Bin Project
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - Assert equals: Bin Project 🟰 Bin Project
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='label project-status-2']
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - Get text of element By.xpath: //span[@class='label project-status-2']
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - ==> TEXT: In Progress
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - Assert equals: In Progress 🟰 In Progress
+[INFO] 02-07-2025 21:12:43 [main] LogUtils - Click on element By.xpath: //a[@class='text-danger _delete']
+[INFO] 02-07-2025 21:12:46 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Projects']
+[INFO] 02-07-2025 21:12:46 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Projects']
+[INFO] 02-07-2025 21:12:47 [main] LogUtils - Set text Bin Project on element By.xpath: //input[@class='form-control input-sm']
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - checkElementExist: true --- By.xpath: //td[@class='dataTables_empty']
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - Get text of element By.xpath: //td[@class='dataTables_empty']
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - ==> TEXT: No matching records found
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - Assert equals: No matching records found 🟰 No matching records found
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - Click on element By.xpath: //img[@class='img img-responsive staff-profile-image-small tw-ring-1 tw-ring-offset-2 tw-ring-primary-500 tw-mx-1 tw-mt-2.5']
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - Click on element By.xpath: //ul[@class='dropdown-menu animated fadeIn']//li[@class='header-logout']//a[@href='#'][normalize-space()='Logout']
+[INFO] 02-07-2025 21:12:49 [main] LogUtils - ✅ Passed: verifyProjectOfCustomer
+🛑 Stopped recording for: verifyProjectOfCustomer
+]]></system-out>
+    <system-err><![CDATA[Jul 02, 2025 9:12:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jul 02, 2025 9:12:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.122. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTask" classname="testcases.TaskTest" time="17.746">
+    <system-out><![CDATA[Khởi chạy trình duyệt Chrome...
+[INFO] 02-07-2025 21:12:51 [main] LogUtils - ▶️ Start test: verifyTask
+🎥 Started recording for: verifyTask
+[INFO] 02-07-2025 21:12:51 [main] LogUtils - 🌐 Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 02-07-2025 21:12:51 [main] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:12:52 [main] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 02-07-2025 21:12:52 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 02-07-2025 21:12:52 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 02-07-2025 21:12:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 02-07-2025 21:12:54 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ ↔️ authentication
+[INFO] 02-07-2025 21:12:54 [main] LogUtils - Get text of element By.xpath: (//span[normalize-space()='Invoices Awaiting Payment']/parent::div)/following-sibling::span
+[INFO] 02-07-2025 21:12:54 [main] LogUtils - ==> TEXT: 0 / 2
+[INFO] 02-07-2025 21:12:54 [main] LogUtils - Assert equals: 0 / 2 🟰 0 / 2
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Tasks']
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Tasks Summary']
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Tasks Summary']
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - ==> TEXT: Tasks Summary
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - Assert equals: Tasks Summary 🟰 Tasks Summary
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='fa-solid fa-grip-vertical']
+[INFO] 02-07-2025 21:12:55 [main] LogUtils - Click on element By.xpath: //i[@class='fa-solid fa-grip-vertical']
+[INFO] 02-07-2025 21:12:56 [main] LogUtils - checkElementExist: true --- By.xpath: //body/div[@id='wrapper']/div[@class='content']/div[@class='row']/div[@class='col-md-12']/div[@id='kan-ban-tab']/div[@class='row']/div[@class='container-fluid']/div[@id='kan-ban']/ul[5]/li[1]/div[1]/div[1]
+[INFO] 02-07-2025 21:12:56 [main] LogUtils - Get text of element By.xpath: //body/div[@id='wrapper']/div[@class='content']/div[@class='row']/div[@class='col-md-12']/div[@id='kan-ban-tab']/div[@class='row']/div[@class='container-fluid']/div[@id='kan-ban']/ul[5]/li[1]/div[1]/div[1]
+[INFO] 02-07-2025 21:12:56 [main] LogUtils - ==> TEXT: Complete - 0 Tasks
+[INFO] 02-07-2025 21:12:56 [main] LogUtils - Assert equals: Complete - 0 Tasks 🟰 Complete - 0 Tasks
+[INFO] 02-07-2025 21:12:56 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='New Task']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[@id='myModalLabel']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Get text of element By.xpath: //h4[@id='myModalLabel']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - ==> TEXT: Add new task
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Assert equals: Add new task 🟰 Add new task
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - checkElementExist: true --- By.xpath: //input[@id='task_is_public']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - checkElementExist: true --- By.xpath: //label[normalize-space()='Public']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Get text of element By.xpath: //label[normalize-space()='Public']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - ==> TEXT: Public
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Assert equals: Public 🟰 Public
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - checkElementExist: true --- By.xpath: //input[@id='task_is_billable']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - checkElementExist: true --- By.xpath: //label[normalize-space()='Billable']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Get text of element By.xpath: //label[normalize-space()='Billable']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - ==> TEXT: Billable
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Assert equals: Billable 🟰 Billable
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Set text Bin Task on element By.xpath: //input[@id='name']
+[INFO] 02-07-2025 21:12:57 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Save']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='alert-title']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Get text of element By.xpath: //span[@class='alert-title']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - ==> TEXT: Task added successfully.
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Assert equals: Task added successfully. 🟰 Task added successfully.
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[@class='modal-title tw-flex tw-items-center']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Get text of element By.xpath: //h4[@class='modal-title tw-flex tw-items-center']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - ==> TEXT: Bin Task
+In Progress
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Assert equals: Bin Task In Progress 🟰 Bin Task In Progress
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='trigger pointer manual-popover text-has-action tw-text-neutral-800']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Get text of element By.xpath: //span[@class='trigger pointer manual-popover text-has-action tw-text-neutral-800']
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - ==> TEXT: In Progress
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Assert equals: In Progress 🟰 In Progress
+[INFO] 02-07-2025 21:12:58 [main] LogUtils - Click on element By.xpath: //i[@class='fa fa-check']
+[INFO] 02-07-2025 21:12:59 [main] LogUtils - Click on element By.xpath: //div[@class='modal-header task-single-header']//span[@aria-hidden='true'][normalize-space()='×']
+[INFO] 02-07-2025 21:13:00 [main] LogUtils - checkElementExist: true --- By.xpath: //body/div[@id='wrapper']/div[@class='content']/div[@class='row']/div[@class='col-md-12']/div[@id='kan-ban-tab']/div[@class='row']/div[@class='container-fluid']/div[@id='kan-ban']/ul[5]/li[1]/div[1]/div[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Get text of element By.xpath: //body/div[@id='wrapper']/div[@class='content']/div[@class='row']/div[@class='col-md-12']/div[@id='kan-ban-tab']/div[@class='row']/div[@class='container-fluid']/div[@id='kan-ban']/ul[5]/li[1]/div[1]/div[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - ==> TEXT: Complete - 1 Tasks
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Assert equals: Complete - 1 Tasks 🟰 Complete - 1 Tasks
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Set text Bin Task on element By.xpath: //input[@id='search']
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - checkElementExist: true --- By.xpath: //ul[1]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Get text of element By.xpath: //ul[1]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - ==> TEXT: No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Assert equals: No Tasks Found 🟰 No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - checkElementExist: true --- By.xpath: //ul[2]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Get text of element By.xpath: //ul[2]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - ==> TEXT: No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Assert equals: No Tasks Found 🟰 No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - checkElementExist: true --- By.xpath: //ul[3]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Get text of element By.xpath: //ul[3]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - ==> TEXT: No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Assert equals: No Tasks Found 🟰 No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - checkElementExist: true --- By.xpath: //ul[4]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Get text of element By.xpath: //ul[4]//li[1]//div[1]//div[2]//div[1]//ul[1]//li[1]//h4[1]
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - ==> TEXT: No Tasks Found
+[INFO] 02-07-2025 21:13:01 [main] LogUtils - Assert equals: No Tasks Found 🟰 No Tasks Found
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - checkElementExist: true --- By.xpath: //div[@class='panel-heading' and normalize-space()='Complete - 0 Tasks']
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - Get text of element By.xpath: //div[@class='panel-heading' and normalize-space()='Complete - 0 Tasks']
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - ==> TEXT: Complete - 0 Tasks
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - Assert equals: Complete - 0 Tasks 🟰 Complete - 0 Tasks
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - checkElementExist: true --- By.xpath: //body/div[@id='wrapper']/div[@class='content']/div[@class='row']/div[@class='col-md-12']/div[@id='kan-ban-tab']/div[@class='row']/div[@class='container-fluid']/div[@id='kan-ban']/ul[1]/li[1]/div[1]/div[1]
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - Get text of element By.xpath: //body/div[@id='wrapper']/div[@class='content']/div[@class='row']/div[@class='col-md-12']/div[@id='kan-ban-tab']/div[@class='row']/div[@class='container-fluid']/div[@id='kan-ban']/ul[1]/li[1]/div[1]/div[1]
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - ==> TEXT: Not Started - 1 Tasks
+[INFO] 02-07-2025 21:13:03 [main] LogUtils - Assert equals: Not Started - 1 Tasks 🟰 Not Started - 1 Tasks
+[INFO] 02-07-2025 21:13:04 [main] LogUtils - Click on element By.xpath: //i[@class='fa-solid fa-table-list']
+[INFO] 02-07-2025 21:13:05 [main] LogUtils - Set text Bin Task on element By.xpath: //input[@class='form-control input-sm']
+[INFO] 02-07-2025 21:13:06 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Delete']
+[INFO] 02-07-2025 21:13:07 [main] LogUtils - Set text Bin Task on element By.xpath: //input[@class='form-control input-sm']
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - checkElementExist: true --- By.xpath: //td[@class='dataTables_empty']
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - Get text of element By.xpath: //td[@class='dataTables_empty']
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - ==> TEXT: No matching records found
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - Assert equals: No matching records found 🟰 No matching records found
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - Click on element By.xpath: //button[@data-dismiss='alert']
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - Click on element By.xpath: //img[@class='img img-responsive staff-profile-image-small tw-ring-1 tw-ring-offset-2 tw-ring-primary-500 tw-mx-1 tw-mt-2.5']
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - Click on element By.xpath: //ul[@class='dropdown-menu animated fadeIn']//li[@class='header-logout']//a[@href='#'][normalize-space()='Logout']
+[INFO] 02-07-2025 21:13:08 [main] LogUtils - ✅ Passed: verifyTask
+🛑 Stopped recording for: verifyTask
+]]></system-out>
+    <system-err><![CDATA[Jul 02, 2025 9:12:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jul 02, 2025 9:12:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.122. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

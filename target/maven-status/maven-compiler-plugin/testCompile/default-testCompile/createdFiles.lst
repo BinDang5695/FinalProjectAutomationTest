@@ -1,0 +1,16 @@
+pages\BasePage.class
+common\BaseTest.class
+testcases\DemoDataProvider.class
+pages\LoginPage.class
+listeners\TestListener.class
+pages\CustomerPage.class
+pages\DashboardPage.class
+testcases\DashboardTest.class
+testcases\ProjectTest.class
+pages\ProjectPage.class
+pages\TaskPage.class
+testcases\TaskTest.class
+common\LocatorsCRM.class
+testcases\LoginTest.class
+testcases\CustomerTest.class
+dataproviders\DataProviderFactory.class

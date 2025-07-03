@@ -1,0 +1,16 @@
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\common\BaseTest.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\common\LocatorsCRM.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\dataproviders\DataProviderFactory.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\listeners\TestListener.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\pages\BasePage.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\pages\CustomerPage.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\pages\DashboardPage.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\pages\LoginPage.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\pages\ProjectPage.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\pages\TaskPage.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\testcases\CustomerTest.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\testcases\DashboardTest.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\testcases\DemoDataProvider.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\testcases\LoginTest.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\testcases\ProjectTest.java
+C:\Users\BinDangVan\DemoTestScenarios\src\test\java\testcases\TaskTest.java
